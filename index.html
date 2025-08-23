@@ -4,7 +4,8 @@
   <meta charset="UTF-8" />
   <title>Valadasu Gnaneswar | Data Analyst Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
   <style>
     /* Google Font CDN Link */
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
@@ -360,7 +361,7 @@
     .certifications {
         background: #F0F8FF;
     }
-    
+    
     .projects .boxes, .experience .boxes, .certifications .boxes {
       display: flex;
       flex-wrap: wrap;
@@ -384,7 +385,7 @@
       flex-direction: column;
       justify-content: space-between;
     }
-    
+    
     .certifications .boxes .box {
         width: calc(100% / 3 - 20px);
     }
@@ -423,7 +424,7 @@
       background-color: #fff;
       color: #4070f4;
     }
-    
+    
     .projects .boxes .box .topic,
     .projects .boxes .box p,
     .experience .boxes .box .topic,
@@ -434,7 +435,7 @@
         color: #fff;
         z-index: 2;
     }
-    
+    
     .projects .boxes .box .button button, .experience .boxes .box .button button, .certifications .boxes .box .button button {
         margin-top: 15px;
     }
@@ -455,29 +456,29 @@
       text-align: center;
       margin: auto;
     }
-    
+    
     .contact-details {
         margin: 20px 0;
     }
-    
+    
     .contact-details .row {
         display: flex;
         align-items: center;
         justify-content: center;
         margin: 10px 0;
     }
-    
+    
     .contact-details .row i {
         font-size: 25px;
         color: #4070f4;
         margin-right: 15px;
     }
-    
+    
     .contact-details .row .info {
         font-size: 18px;
         color: #0E2431;
     }
-    
+    
     .contact-buttons{
         display: flex;
         justify-content: center;
@@ -639,10 +640,12 @@
 </head>
 
 <body>
-    <div class="scroll-button">
+  <!-- Move to up button -->
+  <div class="scroll-button">
     <a href="#home"><i class="fas fa-arrow-up"></i></a>
   </div>
-    <nav>
+  <!-- navigation menu -->
+  <nav>
     <div class="navbar">
       <div class="logo"><a href="#">Gnaneswar</a></div>
       <ul class="menu">
@@ -669,7 +672,8 @@
     </div>
   </nav>
 
-    <section class="home" id="home">
+  <!-- Home Section Start -->
+  <section class="home" id="home">
     <div class="home-content">
       <div class="text">
         <div class="text-one">Hello,</div>
@@ -680,7 +684,8 @@
     </div>
   </section>
 
-    <section class="about" id="about">
+  <!-- About Section Start -->
+  <section class="about" id="about">
     <div class="content">
       <div class="title"><span>About Me</span></div>
       <div class="about-details">
@@ -706,7 +711,8 @@
     </div>
   </section>
 
-    <section class="skills" id="skills">
+  <!-- My Skill Section Start -->
+  <section class="skills" id="skills">
     <div class="content">
       <div class="title"><span>My Skills</span></div>
       <div class="skills-details">
@@ -735,7 +741,8 @@
     </div>
   </section>
 
-    <section class="projects" id="projects">
+  <!-- My Projects Section Start -->
+  <section class="projects" id="projects">
     <div class="content">
       <div class="title"><span>My Projects</span></div>
       <div class="boxes">
@@ -782,8 +789,9 @@
       </div>
     </div>
   </section>
-  
-    <section class="experience" id="experience">
+  
+  <!-- My Experience Section Start -->
+  <section class="experience" id="experience">
     <div class="content">
       <div class="title"><span>My Experience</span></div>
       <div class="boxes">
@@ -817,25 +825,11 @@
     </div>
   </section>
 
-    <section class="certifications" id="certifications">
+  <!-- My Certifications Section Start -->
+  <section class="certifications" id="certifications">
     <div class="content">
       <div class="title"><span>Licenses & Certifications</span></div>
       <div class="boxes">
-        
-                <div class="box" style="background-image: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=2070&auto=format&fit=crop');">
-          <div>
-            <div class="icon">
-              <i class="fab fa-oracle"></i>
-            </div>
-            <div class="topic">Oracle Analytics Cloud 2025 Certified Professional</div>
-            <p>Issued by Oracle, Aug 2025</p>
-            <p class="skills-list">Skills: Provisioning Oracle Analytics Cloud Instances and Lifecycle, Work with Data Modelling, Visualizing Data with Self Service Analytics, Prepare data with Oracle Analytics, Leveraging Advanced Analytics with Oracle Analytics, Machine Learning with Oracle Analytics, Using Oracle Analytics Cloud Answers and Dashboards and BI Publisher, Security and Performance Considerations in Oracle Analytics</p>
-          </div>
-          <div class="button">
-            <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=6A27F6F52B63107A296BCA441259015E5AA567D49E367313B90E7D5A6D4DA779" target="_blank"><button>Show Credential</button></a>
-          </div>
-        </div>
-                
         <div class="box" style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop');">
           <div>
             <div class="icon">
@@ -905,7 +899,8 @@
     </div>
   </section>
 
-    <section class="contact" id="contact">
+  <!-- Contact Me section Start -->
+  <section class="contact" id="contact">
     <div class="content">
       <div class="title"><span>Contact Me</span></div>
       <div class="text">
@@ -937,7 +932,8 @@
     </div>
   </section>
 
-    <footer>
+  <!-- Footer Section Start -->
+  <footer>
     <div class="text">
       <span>Created with <i class="fas fa-heart" style="color: #e25555;"></i> by <a href="#home">Gnaneswar</a> | &#169; 2024 All Rights Reserved</span>
     </div>
@@ -992,4 +988,4 @@
     });
   </script>
 </body>
-</html>
+</html>                                             
