@@ -1,6 +1,4 @@
-
-
-  <script>
+<script>
     // Sticky Navigation Menu
     const nav = document.querySelector("nav");
     const scrollBtn = document.querySelector(".scroll-button a");
